@@ -11,7 +11,17 @@ public class Post_Category {
     int postId;
 
 //    Default Constructor
+
+    public Post_Category() {
+    }
+
 //    Parameterized Constructor
+
+    public Post_Category(int categoryId, int postId) {
+        this.categoryId = categoryId;
+        this.postId = postId;
+    }
+
 //    Getters & Setters
 
 }
